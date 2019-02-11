@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <jp.ikedam.jenkins.plugins.extensible__choice__parameter.ExtensibleChoiceParameterDefinition plugin="extensible-choice-parameter@1.6.0">
+          <name>version</name>
+          <description></description>
+          <editable>false</editable>
+          <editableType>NoFilter</editableType>
+          <choiceListProvider class="org.jenkinsci.plugins.maven_artifact_choicelistprovider.nexus.NexusChoiceListProvider" plugin="maven-artifact-choicelistprovider@1.4.0-SNAPSHOT">
+            <repositoryId></repositoryId>
+            <groupId>tr.com.epias</groupId>
+            <artifactId>transparency</artifactId>
+            <packaging>war</packaging>
+            <classifier></classifier>
+            <reverseOrder>false</reverseOrder>
+            <url>https://nexus.epias.com.tr</url>
+            <credentialsId></credentialsId>
+          </choiceListProvider>
+        </jp.ikedam.jenkins.plugins.extensible__choice__parameter.ExtensibleChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders/>
+  <publishers/>
+  <buildWrappers/>
+</project>

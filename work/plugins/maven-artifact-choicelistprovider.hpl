@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: maven-artifact-choicelistprovider
+Long-Name: Maven Artifact ChoiceListProvider (Nexus)
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Maven+Artifact+Choice
+ ListProvider+Plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.4.0-SNAPSHOT (private-02/11/2019 17:22-yg)
+Hudson-Version: 1.609.3
+Jenkins-Version: 1.609.3
+Plugin-Dependencies: extensible-choice-parameter:1.6.0,credentials:2.1
+ .18
+Plugin-Developers: Stephan Watermeyer:phreakadelle:
+Libraries: /home/yg/Downloads/maven-artifact-choicelistprovider-plugin
+ -master/src/main/resources,/home/yg/Downloads/maven-artifact-choiceli
+ stprovider-plugin-master/target/classes,/home/yg/.m2/repository/com/f
+ asterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2
+ .9.0.jar,/home/yg/.m2/repository/com/fasterxml/jackson/core/jackson-c
+ ore/2.9.8/jackson-core-2.9.8.jar,/home/yg/.m2/repository/com/fasterxm
+ l/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar,/hom
+ e/yg/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar,/h
+ ome/yg/.m2/repository/com/sun/jersey/jersey-client/1.19.4/jersey-clie
+ nt-1.19.4.jar,/home/yg/.m2/repository/com/sun/jersey/jersey-core/1.19
+ .4/jersey-core-1.19.4.jar,/home/yg/.m2/repository/commons-codec/commo
+ ns-codec/1.10/commons-codec-1.10.jar,/home/yg/.m2/repository/javax/an
+ notation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar,/home/
+ yg/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2
+ .0.1.jar,/home/yg/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-
+ api-1.1.1.jar,/home/yg/.m2/repository/org/apache/httpcomponents/httpc
+ lient/4.5.6/httpclient-4.5.6.jar,/home/yg/.m2/repository/org/apache/h
+ ttpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar,/home/yg/.m2/reposi
+ tory/org/apache/maven/maven-model/3.0.5/maven-model-3.0.5.jar,/home/y
+ g/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-
+ 2.0.6.jar,/home/yg/.m2/repository/org/glassfish/hk2/external/aopallia
+ nce-repackaged/2.5.0-b32/aopalliance-repackaged-2.5.0-b32.jar,/home/y
+ g/.m2/repository/org/glassfish/hk2/external/javax.inject/2.5.0-b32/ja
+ vax.inject-2.5.0-b32.jar,/home/yg/.m2/repository/org/glassfish/hk2/hk
+ 2-api/2.5.0-b32/hk2-api-2.5.0-b32.jar,/home/yg/.m2/repository/org/gla
+ ssfish/hk2/hk2-locator/2.5.0-b32/hk2-locator-2.5.0-b32.jar,/home/yg/.
+ m2/repository/org/glassfish/hk2/hk2-utils/2.5.0-b32/hk2-utils-2.5.0-b
+ 32.jar,/home/yg/.m2/repository/org/glassfish/hk2/osgi-resource-locato
+ r/1.0.1/osgi-resource-locator-1.0.1.jar,/home/yg/.m2/repository/org/g
+ lassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2
+ .25.1.jar,/home/yg/.m2/repository/org/glassfish/jersey/connectors/jer
+ sey-apache-connector/2.25.1/jersey-apache-connector-2.25.1.jar,/home/
+ yg/.m2/repository/org/glassfish/jersey/core/jersey-client/2.25.1/jers
+ ey-client-2.25.1.jar,/home/yg/.m2/repository/org/glassfish/jersey/cor
+ e/jersey-common/2.25.1/jersey-common-2.25.1.jar,/home/yg/.m2/reposito
+ ry/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar,/home/yg
+ /.m2/repository/org/sonatype/nexus/plugins/nexus-indexer-lucene-model
+ /2.13.0-01/nexus-indexer-lucene-model-2.13.0-01.jar,/home/yg/.m2/repo
+ sitory/org/sonatype/nexus/plugins/nexus-restlet1x-model/2.13.0-01/nex
+ us-restlet1x-model-2.13.0-01.jar
+Resource-Path: /home/yg/Downloads/maven-artifact-choicelistprovider-pl
+ ugin-master/src/main/webapp
+
